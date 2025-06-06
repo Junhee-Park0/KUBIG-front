@@ -32,11 +32,11 @@ export default function Footer() {
                 <br />
                 Professor | 임성빈 교수님 (고려대 통계학과)
                 <br />
-                20th President | 방서연 | 010-5336-1269
+                22nd President | 기광민 | 010-8535-4705
                 <br />
-                20th President | 정윤주 | 010-2957-1220
+                22nd President | 박준희 | 010-5909-3711
                 <br />
-                20th President | 하진우 | 010-3318-3994
+                22nd President | 이예지 | 010-4726-2895
                 <br />
                 Gmail | kubigkorea@gmail.com
               </p>
