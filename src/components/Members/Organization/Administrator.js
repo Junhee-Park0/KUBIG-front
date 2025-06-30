@@ -5,6 +5,13 @@ import PageSelect from "../common/PageSelect";
 import { useEffect, useState } from "react";
 import axios from "../../../api/axios";
 
+# 서수 수정 - 20기 박준희
+const getOrdinalSuffix = (n) => {
+  const s = ["th", "st", "nd", "rd"],
+    v = n % 100;
+  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+};
+
 export default function Administrator(props) {
   const { g } = props;
 
@@ -50,7 +57,7 @@ export default function Administrator(props) {
       <Wrapper>
         <PageSelect p={"org"} />
         <TitleBox>
-          <h1>KUBIG {g}th Administrator</h1>
+          <h1>KUBIG {getOrdinalSuffix(g)} Administrator</h1>
         </TitleBox>
 
         <Wrapper className="top">
