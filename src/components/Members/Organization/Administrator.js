@@ -180,7 +180,7 @@ const GenText = styled.div`
 `;
 
 const RedCircle = styled.div`
-  width: 1.0rem;
+  width: 2.5rem;
   height: 0.5rem; 
   border-radius: 50%;
   background-color: #9f1f15;
