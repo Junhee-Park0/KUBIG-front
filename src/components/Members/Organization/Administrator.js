@@ -166,7 +166,7 @@ const GenText = styled.div`
   margin-top: 1.21rem;
   margin-bottom: 0.56rem;
 
-  width: 4.4375rem;
+  width: 10rem;
   height: 1.625rem;
   border-radius: 3.125rem;
   background: #9e1f15;
