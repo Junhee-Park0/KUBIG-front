@@ -5,7 +5,6 @@ import PageSelect from "../common/PageSelect";
 import { useEffect, useState } from "react";
 import axios from "../../../api/axios";
 
-# 서수 수정 - 20기 박준희
 const getOrdinalSuffix = (n) => {
   const s = ["th", "st", "nd", "rd"],
     v = n % 100;
