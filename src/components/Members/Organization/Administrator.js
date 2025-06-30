@@ -160,6 +160,7 @@ const ContentContainer = styled.div`
 
 const GenText = styled.div`
   display: flex;
+  justify-content: center;
   align-items: center;
 
   padding: 1.13rem 1.13rem;
