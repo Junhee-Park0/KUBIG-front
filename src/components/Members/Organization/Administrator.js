@@ -6,9 +6,14 @@ import { useEffect, useState } from "react";
 import axios from "../../../api/axios";
 
 const getOrdinalSuffix = (n) => {
-  const s = ["th", "st", "nd", "rd"],
-    v = n % 100;
-  return n + (s[(v - 20) % 10] || s[v] || s[0]);
+  const v = n % 100;
+  if (v >= 11 && v <= 13) return n + "th";
+  switch (n % 10) {
+    case 1: return n + "st";
+    case 2: return n + "nd";
+    case 3: return n + "rd";
+    default: return n + "th";
+  }
 };
 
 export default function Administrator(props) {
