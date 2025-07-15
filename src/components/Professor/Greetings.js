@@ -1,6 +1,6 @@
 import React from "react";
 import { styled } from "styled-components";
-import president from "../../image/20th_president.jpg";
+import president from "../../image/22nd_president.jpg";
 
 export default function Greetings() {
   return (
