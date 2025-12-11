@@ -22,7 +22,7 @@ export default function Requirements() {
         </RequirementsItem>
       </RequirementsItemWrapper>
       <ApplyBtn
-        onClick={() => window.open("https://forms.gle/5WDtCsEpFfYKyqPHA")}
+        onClick={() => window.open("https://forms.gle/34rC55h4SxR7Q6xN9")}
       >
         <h3>APPLY</h3>
       </ApplyBtn>
